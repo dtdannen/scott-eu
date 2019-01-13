@@ -2,13 +2,11 @@
 
 build:
 	(cd planner_reasoner 		&&	make build)
-	(cd deployment/maven-base 	&&	make build)
 	(cd lyo-services 		&&	make build)
 	(cd robot-emulator 		&&	make build)
 
 push:
 	(cd planner_reasoner		&&	make push)
-	(cd deployment/maven-base 	&&	make push)
 	(cd lyo-services		&&	make push)
 	(cd robot-emulator		&&	make push)
 
